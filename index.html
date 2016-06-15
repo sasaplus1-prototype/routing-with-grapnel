@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <title>routing with Grapnel</title>
+  </head>
+  <body>
+    <p>hashchange links</p>
+    <ul>
+      <li><a href="#1">1</a></li>
+      <li><a href="#2">2</a></li>
+      <li><a href="#3">3</a></li>
+    </ul>
+    <p id="js-status-1"></p>
+
+    <hr>
+
+    <p>pushState links</p>
+    <ul>
+      <li><a class="js-push-state-links" href="javascript:void 0" data-route="/1">1</a></li>
+      <li><a class="js-push-state-links" href="javascript:void 0" data-route="/2">2</a></li>
+      <li><a class="js-push-state-links" href="javascript:void 0" data-route="/3">3</a></li>
+    </ul>
+    <p id="js-status-2"></p>
+
+    <script src="grapnel.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
